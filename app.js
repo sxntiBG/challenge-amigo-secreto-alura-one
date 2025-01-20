@@ -32,7 +32,7 @@ function sortearAmigo(){
         return;
     }
 
-    let numeroAleatorio = Math.floor(Math.random() * amigos.length + 1);
+    let numeroAleatorio = Math.floor(Math.random() * amigos.length);
     let ganador = document.getElementById('resultado');
     ganador.innerHTML = amigos[numeroAleatorio];
 
